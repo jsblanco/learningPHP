@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="" />
+    <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/16-Sessions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Sessions/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Sessions/pagina1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-Cookies/borrar_cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-Cookies/crear_cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-Cookies/ver_cookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +18,12 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1lbIcq4sPrVZxawvCxsmjpxuMBs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,10 +52,23 @@
       <workItem from="1607859447200" duration="2315000" />
       <workItem from="1607866263762" duration="2065000" />
       <workItem from="1607893350041" duration="5163000" />
+      <workItem from="1607982414866" duration="3586000" />
+      <workItem from="1608065621616" duration="3497000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
