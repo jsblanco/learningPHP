@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13-Includes/components/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-Forms/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-Forms/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-Forms/receive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-Validation/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-Validation/process_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-Includes/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-Includes/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/components/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-Includes/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-Includes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,6 +61,7 @@
       <workItem from="1607982414866" duration="3586000" />
       <workItem from="1608065621616" duration="3497000" />
       <workItem from="1608155768267" duration="2170000" />
+      <workItem from="1608241764513" duration="1516000" />
     </task>
     <servers />
   </component>
