@@ -1,11 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="es">
-<head>
-    <meta charset="utf-8"/>
-    <title>Includes en PHP</title>
-</head>
-<body>
-
 <header class="Header">
     <h1>Includes en PHP</h1>
     <ul>

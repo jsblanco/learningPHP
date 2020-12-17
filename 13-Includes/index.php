@@ -1,5 +1,6 @@
 <?php
-include 'components/header.php'
+include 'components/head.php';
+include 'components/header.php';
 ?>
     <div>
         <h2>Página de inicio</h2>
@@ -10,5 +11,5 @@ include 'components/header.php'
     </div>
 
 <?php
-include 'components/footer.php'
+include 'components/footer.php';
 ?>

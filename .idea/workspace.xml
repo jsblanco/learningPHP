@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16-Sessions/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-Sessions/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-Sessions/pagina1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-Cookies/borrar_cookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-Cookies/crear_cookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-Cookies/ver_cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Includes/components/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-Forms/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/13-Includes/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
       <workItem from="1607893350041" duration="5163000" />
       <workItem from="1607982414866" duration="3586000" />
       <workItem from="1608065621616" duration="3497000" />
+      <workItem from="1608155768267" duration="2170000" />
     </task>
     <servers />
   </component>
@@ -70,5 +71,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
