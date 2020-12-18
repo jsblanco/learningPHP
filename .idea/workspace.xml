@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/18-Forms/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-Forms/receive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-Validation/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-Validation/process_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-Validation/process_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/19-Validation/process_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
       <workItem from="1608065621616" duration="3497000" />
       <workItem from="1608155768267" duration="2170000" />
       <workItem from="1608241764513" duration="1516000" />
+      <workItem from="1608291876849" duration="1281000" />
     </task>
     <servers />
   </component>
