@@ -1,18 +1,27 @@
 <?php
 include '../13-Includes/components/head.php';
 
-$error = true;
-if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['age']) && isset($_POST['email']) && isset($_POST['password'])){
-    $error = false;
+$error = 'faltan_valores';
+if (empty($_POST['name']) && empty($_POST['surname']) && empty($_POST['age']) && empty($_POST['email']) && empty($_POST['pass'])) {
+    $error = true;
+    header("location:index.php?error=$error");
+} else {
     extract($_POST);
+    $error = false;
 }
 
-?>
-<h1>$name</h1>
-    <h1>$surname</h1>
-    <h1>$age</h1>
-    <h1>$email</h1>
-    <h1>$password</h1>
+var_dump($_POST);
 
-<?php
-include '../13-Includes/components/footer.php';
+if (!!$error) {
+    extract($_POST);
+    echo '<h4>Please input all data</h4>';
+} else {
+
+    echo '<h1>Datos validados adecuadamente:</h1><h4>' . $name . '</h4><h4>' . $surname . '</h4><h4>' . $age . '</h4><h4>' . $email . '</h4><h4>' . $password . '</h4>';
+};
+
+echo isset($name) . '<br>';
+echo !!$name . '<br>';
+
+
+echo gettype(!!$name);

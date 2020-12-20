@@ -4,6 +4,13 @@ include '../13-Includes/components/head.php';
 
     <h1>Validar formularios en PHP</h1>
 
+<?php
+
+if (isset($_GET['error'])){
+    echo '<h3 style="color: tomato"> Introduce todos los campos del formulario.</h3>';
+}
+?>
+
     <form method="post" action="process_form.php">
         <label for="name">Nombre:</label><br>
         <input type="text" name="name" required pattern="[A-Za-z]+"/><br>
@@ -14,7 +21,7 @@ include '../13-Includes/components/head.php';
         <label for="email">Email:</label><br>
         <input type="email" name="email" required/><br>
         <label for="password">Contraseña:</label><br>
-        <input type="password" name="password" required/><br>
+        <input type="password" name="password"required/><br>
         <input type="submit" value="enviar">
     </form>
 
