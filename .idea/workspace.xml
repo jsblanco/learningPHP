@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="Reached autoloader">
-      <change afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/classes/AdminPanel/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/controllers/Note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/controllers/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/models/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/models/Note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/views/Note/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/views/Users/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/views/Users/fetchAll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/12-Autoload/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/12-Autoload/classes/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/classes/DummyClasses/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/12-Autoload/classes/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/classes/DummyClasses/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/12-Autoload/classes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/12-Autoload and Namespace/classes/DummyClasses/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/12-Autoload/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <workItem from="1608633532126" duration="4000" />
       <workItem from="1609199752873" duration="4962000" />
       <workItem from="1609252746121" duration="8580000" />
-      <workItem from="1609276184740" duration="2057000" />
+      <workItem from="1609276184740" duration="6549000" />
     </task>
     <task id="LOCAL-00001" summary="Learned file management">
       <created>1608504995530</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609274254842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed OOP section">
+      <created>1609278631817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609278631824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +147,8 @@
     <MESSAGE value="Learned file management" />
     <MESSAGE value="Started exploring PHP OOP" />
     <MESSAGE value="Reached autoloader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reached autoloader" />
+    <MESSAGE value="Completed OOP section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed OOP section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
