@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OOP/01- Classes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/02-Constructor/car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/02-Constructor/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/03-Inheritance/classes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/03-Inheritance/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-Validation/process_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/19-Validation/process_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Predefined Functions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/12-Predefined Functions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/components/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/components/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-Includes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/13-Includes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-arrays/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/14-arrays/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-Sessions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/16-Sessions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-Sessions/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/16-Sessions/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-Sessions/pagina1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/16-Sessions/pagina1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-Cookies/borrar_cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/17-Cookies/borrar_cookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-Cookies/crear_cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/17-Cookies/crear_cookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-Cookies/ver_cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/17-Cookies/ver_cookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-Forms/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/18-Forms/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-Forms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/18-Forms/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-Forms/receive.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/18-Forms/receive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-Validation/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/19-Validation/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-Validation/process_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/19-Validation/process_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-Files/cloned_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/20-Files/cloned_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-Files/dummy_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/20-Files/dummy_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-Files/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/20-Files/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-Directories/folder/page1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/21-Directories/folder/page1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-Directories/folder/page2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/21-Directories/folder/page2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-Directories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/21-Directories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-Directories/page1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/21-Directories/page1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-Directories/page2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/21-Directories/page2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-File uploads/images/Andres_guerra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/22-File uploads/images/Andres_guerra.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-File uploads/images/junta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/22-File uploads/images/junta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-File uploads/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/22-File uploads/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22-File uploads/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/22-File uploads/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7- SuperglobalVars/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/7- SuperglobalVars/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7- SuperglobalVars/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/7- SuperglobalVars/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7- SuperglobalVars/receive.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/7- SuperglobalVars/receive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8- Conditionals/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Language basics/8- Conditionals/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +77,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OOP" />
+      <recent name="$PROJECT_DIR$/Language basics" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,8 +109,19 @@
       <workItem from="1608065621616" duration="3497000" />
       <workItem from="1608155768267" duration="2170000" />
       <workItem from="1608241764513" duration="1516000" />
-      <workItem from="1608291876849" duration="1281000" />
+      <workItem from="1608330219008" duration="12000" />
+      <workItem from="1608590880124" duration="599000" />
+      <workItem from="1608633532126" duration="4000" />
+      <workItem from="1609199752873" duration="4621000" />
     </task>
+    <task id="LOCAL-00001" summary="Learned file management">
+      <created>1608504995530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608504995530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +138,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Learned file management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned file management" />
   </component>
 </project>

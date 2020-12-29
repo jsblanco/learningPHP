@@ -16,10 +16,10 @@ if ($type == 'image/jpg'
     //$uploadedFile es un array de datos del archivo subido; el archivo en sí está en la key tmp_name
     move_uploaded_file($uploadedFile['tmp_name'], 'images/'.$name);
     echo '<h4 style="color: darkgreen">Imagen '.$name.' subida adecuadamente</h4>';
-    echo '<a href="index.php">Volver al formulario de subida</a>';
+    echo '<a href="car.php">Volver al formulario de subida</a>';
 
 } else {
-    //Tras 4 segundos te llevará a index.php
-    header("Refresh: 4; URL=index.php");
+    //Tras 4 segundos te llevará a car.php
+    header("Refresh: 4; URL=car.php");
     echo '<h4 style="color: tomato">Por favor, sube una imagen</h4>';
 }

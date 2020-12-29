@@ -4,7 +4,7 @@ include '../13-Includes/components/head.php';
 $error = 'faltan_valores';
 if (empty($_POST['name']) && empty($_POST['surname']) && empty($_POST['age']) && empty($_POST['email']) && empty($_POST['pass'])) {
     $error = true;
-    header("location:index.php?error=$error");
+    header("location:car.php?error=$error");
 } else {
     extract($_POST);
     $error = false;
