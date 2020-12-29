@@ -1,5 +1,7 @@
 <?php
 
+namespace DummyClasses;
+
 class User
 {
     public $name;
@@ -15,6 +17,4 @@ class User
         $this->name = $name;
         $this->email = $email;
     }
-
-
 }

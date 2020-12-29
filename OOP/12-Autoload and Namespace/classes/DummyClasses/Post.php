@@ -1,5 +1,7 @@
 <?php
 
+namespace DummyClasses;
+
 class Post
 {
     public $title;

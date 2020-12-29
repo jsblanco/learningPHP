@@ -1,5 +1,7 @@
 <?php
 
+namespace DummyClasses;
+
 class Category
 {
     public $name;
