@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="Reached autoloader">
-      <change afterPath="$PROJECT_DIR$/MVC/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVC/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/controllers/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/NoteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/models/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/Note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/views/Note/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/views/Note/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/views/User/fetchAll.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/views/User/fetchAll.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1609252746121" duration="8580000" />
       <workItem from="1609276184740" duration="6853000" />
       <workItem from="1609329303822" duration="2233000" />
-      <workItem from="1609334977574" duration="299000" />
+      <workItem from="1609334977574" duration="5288000" />
     </task>
     <task id="LOCAL-00001" summary="Learned file management">
       <created>1608504995530</created>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609283635895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Connected to MVC project MySQL database">
+      <created>1609335522927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335522927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +161,8 @@
     <MESSAGE value="Reached autoloader" />
     <MESSAGE value="Completed OOP section" />
     <MESSAGE value="Started exploring PHP MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started exploring PHP MVC" />
+    <MESSAGE value="Connected to MVC project MySQL database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected to MVC project MySQL database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,9 +13,9 @@ class Base
         $this->db = database::connect();
     }
 
-    public function fetchAll()
+    public function fetchAll($table)
     {
-        var_dump($this->db);
-        return 'Fetching all...<br>';
+        $query = $this->db->query("SELECT * FROM $table ORDER BY id ASC");
+        return $query;
     }
 }

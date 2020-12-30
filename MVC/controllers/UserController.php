@@ -5,7 +5,7 @@ class UserController
     public function fetchAll(){
         require_once 'models/User.php';
         $user = new User();
-        $allUsers = $user->fetchAll();
+        $allUsers = $user->fetchAll('users');
         require_once 'views/User/fetchAll.php';
     }
 

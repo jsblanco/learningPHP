@@ -3,8 +3,9 @@ require_once 'models/Base.php';
 
 class Note extends Base
 {
-    public $name;
-    public $content;
+    public $userId;
+    public $title;
+    public $description;
 
     /**
      * Note constructor.
@@ -15,36 +16,32 @@ class Note extends Base
     }
 
     /**
-     * @return mixed
+     * @param mixed $userId
      */
-    public function getName()
+    public function setUserId($userId): void
     {
-        return $this->name;
+        $this->userId = $userId;
     }
 
     /**
-     * @param mixed $name
+     * @param mixed $title
      */
-    public function setName($name): void
+    public function setTitle($title): void
     {
-        $this->name = $name;
+        $this->title = $title;
     }
 
     /**
-     * @return mixed
+     * @param mixed $description
      */
-    public function getContent()
+    public function setDescription($description): void
     {
-        return $this->content;
+        $this->description = $description;
     }
 
-    /**
-     * @param mixed $content
-     */
-    public function setContent($content): void
-    {
-        $this->content = $content;
+    public function saveNewNote(){
+        $sql = "INSERT INTO notes(user_id, title, description, date) VALUES ({$this->userId}, '{$this->title}', '{$this->description}', CURDATE() )";
+        $savedNote = $this->db->query($sql);
+        return $savedNote;
     }
-
-    public function fetchAll(){}
 }
