@@ -7,6 +7,14 @@ class Note extends Base
     public $content;
 
     /**
+     * Note constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
      * @return mixed
      */
     public function getName()

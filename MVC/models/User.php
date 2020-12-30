@@ -9,6 +9,14 @@ class User extends Base
     private $password;
 
     /**
+     * User constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
      * @return mixed
      */
     public function getName()
