@@ -1,0 +1,6 @@
+<h4>Chain of command:</h4>
+<ul>
+    {% for key, hero in heroes %}
+        <li>{{ loop.index }}: {{ key }}: {{ hero }}</li>
+    {% endfor %}
+</ul>

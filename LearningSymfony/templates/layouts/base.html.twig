@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}{% endblock %} - Symfony practice
+    </title>
+</head>
+<body>
+<div id="header">
+    {% block header %}
+    <h1>Cabecera por defecto</h1>
+    {% endblock %}
+</div>
+<div id="body">
+    <hr>
+    {% block body %}
+    <p>Contenido por defecto.</p>
+    {% endblock %}
+    <hr>
+</div>
+<footer id="footer">
+    <p>Learning Symfony</p>
+</footer>
+
+</body>
+</html>

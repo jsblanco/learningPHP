@@ -1,0 +1,12 @@
+{% if units|length > 0 %}
+    <p>Current units:</p>
+    <ul>
+        {% for unit in units %}
+            <li>{{unit }}</li>
+        {% endfor %}
+    </ul>
+
+    <h4>Unit of the month: <strong>{{ random(units) }}</strong></h4>
+{% else %}
+    <p>This Legion is empty</p>
+{% endif %}

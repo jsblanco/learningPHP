@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="Reached autoloader">
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Twig/CustomPipeExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/home/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/layouts/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/partials/commandChain.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/partials/units.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libraries/GeneratePDF/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libraries/GeneratePDF/pdfToGenerate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LearningPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearningPHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/controllers/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/NoteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/models/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/Note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/views/Note/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/views/Note/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/views/User/fetchAll.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/views/User/fetchAll.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Libraries/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -31,7 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/Libraries/vendor/spipu/html2pdf" />
+      <path value="$PROJECT_DIR$/Libraries/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/Libraries/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1lbIcq4sPrVZxawvCxsmjpxuMBs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -52,8 +64,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +99,10 @@
       <workItem from="1609252746121" duration="8580000" />
       <workItem from="1609276184740" duration="6853000" />
       <workItem from="1609329303822" duration="2233000" />
-      <workItem from="1609334977574" duration="5288000" />
+      <workItem from="1609334977574" duration="10035000" />
+      <workItem from="1609604323707" duration="3362000" />
+      <workItem from="1609708066969" duration="1961000" />
+      <workItem from="1609751747988" duration="6948000" />
     </task>
     <task id="LOCAL-00001" summary="Learned file management">
       <created>1608504995530</created>
@@ -137,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609335522927</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed the MVC section">
+      <created>1609366222984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609366222984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,13 +179,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Learned file management" />
     <MESSAGE value="Started exploring PHP OOP" />
     <MESSAGE value="Reached autoloader" />
     <MESSAGE value="Completed OOP section" />
     <MESSAGE value="Started exploring PHP MVC" />
     <MESSAGE value="Connected to MVC project MySQL database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected to MVC project MySQL database" />
+    <MESSAGE value="Completed the MVC section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the MVC section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

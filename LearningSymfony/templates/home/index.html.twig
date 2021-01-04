@@ -1,0 +1,50 @@
+{% extends 'layouts/base.html.twig' %}
+
+{% block title %}Hello!{% endblock %}
+
+    {% block header %}
+        <h1>Welcome to my Symfony practice</h1>
+    {% endblock %}
+
+{% block body %}
+    <style>
+        .example-wrapper {
+            margin: 1em auto;
+            max-width: 800px;
+            width: 95%;
+            font: 18px/1.5 sans-serif;
+        }
+
+        .example-wrapper code {
+            background: #F5F5F5;
+            padding: 2px 6px;
+        }
+    </style>
+
+    <div class="example-wrapper">
+        <h1>{{ helloWorld }}! ✅</h1>
+
+        {% set time =  "now"|date("m/d/Y") %}
+
+        <p>You joined on the: {{ time }}</p>
+
+        <h4> For the glory of our primarch {{ heroes['Primarch'] }}!</h4>
+
+        {% if heroes['Primarch'] == 'Fulgrim' %}
+            <p>We are the Third, the Most Perfect Legion!</p>
+        {% else %}
+            <p>We are some other Legion nobody cares about.</p>
+        {% endif %}
+
+        {% include 'partials/commandChain.html.twig' %}
+        {% include 'partials/units.html.twig' %}
+        <p>
+            {% for i in range (0, 20, 4) %}
+                {{ i }},
+            {% endfor %}
+        </p>
+
+        <p>{{ multiply_function(31) | raw }}</p>
+        <p>{{ 25| multiply | raw }}</p>
+    </div>
+{% endblock %}
