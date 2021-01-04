@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ChapterController!{% endblock %}
+
+{% block body %}
+    <style>
+        .example-wrapper {
+            margin: 1em auto;
+            max-width: 800px;
+            width: 95%;
+            font: 18px/1.5 sans-serif;
+        }
+
+        .example-wrapper code {
+            background: #F5F5F5;
+            padding: 2px 6px;
+        }
+    </style>
+
+    <div class="example-wrapper">
+        <h1>Official Adeptus Astartes Chapter Ledger</h1>
+
+        <ul>
+            {% for chapter in chapters %}
+                <li>The <b>{{ chapter.getName() }}</b> chapter bears
+                    {% if (chapter.getPrimarch()) is empty %}
+                        an unknown geneseed
+                    {% else %}
+                        the geneseed of <b>{{ chapter.getPrimarch() }}</b>
+                    {% endif %}
+                    and are led by Chapter Master <b>{{ chapter.getChapterMaster() }}</b>
+                </li>
+
+            {% endfor %}
+
+        </ul>
+    </div>
+{% endblock %}

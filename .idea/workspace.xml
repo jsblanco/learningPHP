@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="Reached autoloader">
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Twig/CustomPipeExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/layouts/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/partials/commandChain.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/partials/units.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/GeneratePDF/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/GeneratePDF/pdfToGenerate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearningPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearningPHP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="27cca36e-2f66-487c-9f6a-f7898c82e0a1" name="Default Changelist" comment="Created controllers, twig templates and custom pipes">
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/migrations/Version20210104180215.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Controller/ChapterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Entity/Chapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningSymfony/templates/chapter/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +98,8 @@
       <workItem from="1609334977574" duration="10035000" />
       <workItem from="1609604323707" duration="3362000" />
       <workItem from="1609708066969" duration="1961000" />
-      <workItem from="1609751747988" duration="6948000" />
+      <workItem from="1609751747988" duration="7436000" />
+      <workItem from="1609780603721" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="Learned file management">
       <created>1608504995530</created>
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609366222984</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created controllers, twig templates and custom pipes">
+      <created>1609769522666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609769522666</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +191,8 @@
     <MESSAGE value="Started exploring PHP MVC" />
     <MESSAGE value="Connected to MVC project MySQL database" />
     <MESSAGE value="Completed the MVC section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the MVC section" />
+    <MESSAGE value="Created controllers, twig templates and custom pipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created controllers, twig templates and custom pipes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
