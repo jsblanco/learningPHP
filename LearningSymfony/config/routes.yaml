@@ -1,0 +1,32 @@
+index:
+  path: /
+  controller: App\Controller\HomeController::index
+index.home:
+  path: /secondary/{name}/{surname}
+  controller: App\Controller\HomeController::customRoute
+  defaults: { name: 'Mr.', surname: 'Nobody' }
+  methods: [ POST, GET ]
+  requirements:
+    name: '[a-z,A-Z]+'
+    surname: '[a-z,A-Z,0-9]+'
+index.redirect:
+  path: /redirect
+  controller: App\Controller\HomeController::redirectToRoute
+  defaults:
+    route: 'index.home'
+    parameters: { name: 'redirected', surname: 'user' }
+chapter:
+  path: /chapter
+  controller: App\Controller\ChapterController::index
+chapter.save:
+  path: /chapter/save
+  controller: App\Controller\ChapterController::save
+chapter.find:
+  path: /chapter/find/{id}
+  controller: App\Controller\ChapterController::find
+chapter.update:
+  path: /chapter/update/{id}
+  controller: App\Controller\ChapterController::update
+chapter.delete:
+  path: /chapter/delete/{id}
+  controller: App\Controller\ChapterController::delete

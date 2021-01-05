@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Chapter
  *
  * @ORM\Table(name="chapters")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\ChapterRepository")
  */
 class Chapter
 {
