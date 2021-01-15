@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register a new Chapter{% endblock %}
+
+{% block body %}
+    <h1>Register a new Chapter of the Adeptus Astartes</h1>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+
+    {% for message in app.session.flashbag().get('message') %}
+        <h4>{{ message }}</h4>
+    {% endfor %}
+
+{% endblock %}

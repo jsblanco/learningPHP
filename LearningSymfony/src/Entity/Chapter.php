@@ -8,6 +8,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Chapter
@@ -30,6 +31,10 @@ class Chapter
      * @var string
      *
      * @ORM\Column(name="name", type="string", length=255, nullable=false)
+     * @Assert\NotBlank (message="All chapters must have a name")
+     * @Assert\Regex(
+     *     pattern="/[a-zA-Z]+/",
+     *     message="Chapter names can only bear regular letters, with no numbers nor symbols")
      */
     private $name;
 
@@ -37,6 +42,9 @@ class Chapter
      * @var string|null
      *
      * @ORM\Column(name="primarch", type="string", length=255, nullable=true)
+     * @Assert\Regex(
+     *     pattern="/[a-zA-Z]+/",
+     *     message="No known Primarch had a number on his name")
      */
     private $primarch;
 
@@ -44,6 +52,10 @@ class Chapter
      * @var string
      *
      * @ORM\Column(name="chapter_master", type="string", length=255, nullable=false)
+     * @Assert\NotBlank (message="A chapter must be led by a Chapter Master")
+     * @Assert\Regex(
+     *     pattern="/[a-zA-Z]+/",
+     *     message="Chapter Masters only have regular letters on their names")
      */
     private $chapterMaster;
 

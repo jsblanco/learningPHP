@@ -1,0 +1,14 @@
+index:
+    path: /
+    controller: App\Controller\TaskController::index
+tasks:
+    path: /tasks
+    controller: App\Controller\TaskController::index
+user.login:
+    path: /login
+    controller: App\Controller\UserController::login
+user.logout:
+    path: /logout
+user.register:
+    path: /register
+    controller: App\Controller\UserController::register

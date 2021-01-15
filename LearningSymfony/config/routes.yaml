@@ -18,9 +18,13 @@ index.redirect:
 chapter:
   path: /chapter
   controller: App\Controller\ChapterController::index
+chapter.create:
+  path: /chapter/create
+  controller: App\Controller\ChapterController::create
 chapter.save:
   path: /chapter/save
   controller: App\Controller\ChapterController::save
+  methods: [ POST ]
 chapter.find:
   path: /chapter/find/{id}
   controller: App\Controller\ChapterController::find
@@ -30,3 +34,8 @@ chapter.update:
 chapter.delete:
   path: /chapter/delete/{id}
   controller: App\Controller\ChapterController::delete
+validate_email:
+  path: /validate-email/{email}
+  controller: App\Controller\ChapterController::validateEmail
+  defaults:
+    email: 'email@email.com'

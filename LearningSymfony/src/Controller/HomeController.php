@@ -10,7 +10,7 @@ class HomeController extends AbstractController
 {
     public function index(): Response
     {
-        return $this->render('home/index.html.twig', [
+        return $this->render('home/register.html.twig', [
             'controller_name' => 'HomeController',
             'helloWorld' => 'Hello World, from Jorge on Symfony!'
         ]);
@@ -18,7 +18,7 @@ class HomeController extends AbstractController
 
     public function customRoute($name, $surname): Response
     {
-        return $this->render('home/index.html.twig', [
+        return $this->render('home/register.html.twig', [
             'controller_name' => 'HomeController',
             'helloWorld' => 'Welcome to the Adeptus Astartes, brother ' . ucfirst($name) . ' ' . ucfirst($surname),
             'heroes' => ['Primarch'=>'Fulgrim', 'Lord Commander'=> 'Eidolon', 'Apothecary'=>'Fabius Bile', 'Champion'=>'Lucius'],

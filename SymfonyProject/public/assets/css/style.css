@@ -1,0 +1,60 @@
+body {
+    background: darkslategray;
+    color: whitesmoke;
+}
+
+header, .example-wrapper {
+    margin: 1em auto;
+    max-width: 800px;
+    width: 95%;
+    font: 18px/1.5 sans-serif;
+}
+
+.example-wrapper code {
+    background: #F5F5F5;
+    padding: 2px 6px;
+}
+
+#header-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    background: #2e3136;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#header-menu a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+}
+
+#header-menu a:hover {
+    background: #4f805d;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button, input[type="submit"],
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 500px;
+    max-width: 90vw;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+button, input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
